@@ -1,0 +1,12 @@
+ETAPAS FEITAS:
+- Python 3.9.13 + Django 4.0.6
+- Criar Projeto Django (website)
+- Criar Aplicação para rascunhos (rascunho)
+- Configurar settings.py
+    - Definir pasta raiz templates + static
+    - Configurar idioma portugues brasil (pt-br)
+    - Confugurar fuso horário -3 GMT (America/Sao_Paulo)
+    - Carregar aplição para rascunhos (rascunho)
+- Aplicar migrações
+- Criar super usuário admin (scala_ai)
+

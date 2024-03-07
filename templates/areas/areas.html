@@ -1,0 +1,316 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Áreas{% endblock %}
+{% block content %}
+    <!-- Content -->
+    <div class="container-xxl flex-grow-1 container-p-y">
+      <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Áreas de Atuação</span></h4>
+
+          <!-- Tabs -->
+              <hr class="container-m-nx border-light mt-5" />
+
+              <div class="row">
+                <div class="col-xl-10">
+                  <div class="nav-align-top mb-4">
+                    <ul class="nav nav-pills mb-3" role="tablist">
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link active"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-analise-de-dados"
+                          aria-controls="navs-pills-top-analise-de-dados"
+                          aria-selected="true"
+                        >
+                          Análise de Dados
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-aprendizado-de-maquinas"
+                          aria-controls="navs-pills-top-aprendizado-de-maquinas"
+                          aria-selected="false"
+                        >
+                          Aprendizado de Máquinas
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-arquitetura-de-dados"
+                          aria-controls="navs-pills-top-arquitetura-de-dados"
+                          aria-selected="false"
+                        >
+                          Arquitetura de Dados
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-automacoes-rpa"
+                          aria-controls="navs-pills-top-automacoes-rpa"
+                          aria-selected="false"
+                        >
+                          Automações RPA
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-ciencia-de-dados"
+                          aria-controls="navs-pills-top-ciencia-de-dados"
+                          aria-selected="false"
+                        >
+                          Ciência de Dados
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-desenvolvimento-de-softwares"
+                          aria-controls="navs-pills-top-desenvolvimento-de-softwares"
+                          aria-selected="false"
+                        >
+                          Desenvolvimento de Softwares
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-engenharia-de-dados"
+                          aria-controls="navs-pills-top-engenharia-de-dados"
+                          aria-selected="false"
+                        >
+                          Engenharia de Dados
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-inteligencia-artificial"
+                          aria-controls="navs-pills-top-inteligencia-artificial"
+                          aria-selected="false"
+                        >
+                          Inteligência Artificial
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-inteligencia-de-negocios"
+                          aria-controls="navs-pills-top-inteligencia-de-negocios"
+                          aria-selected="false"
+                        >
+                          Inteligência de Negócios
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-processamento-de-linguagem-natural"
+                          aria-controls="navs-pills-top-processamento-de-linguagem-natural"
+                          aria-selected="false"
+                        >
+                          Proces de Ling Nat
+                        </button>
+                      </li>
+
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-top-visao-computacional"
+                          aria-controls="navs-pills-top-visao-computacional"
+                          aria-selected="false"
+                        >
+                          Visão Computacional
+                        </button>
+                      </li>
+
+                    </ul>
+
+                    <div class="tab-content">
+
+                      <div class="tab-pane fade show active" id="navs-pills-top-analise-de-dados" role="tabpanel">
+                            <h1 class="mb-0">Análise de Dados</h1>
+                        <h6 class="py-2 my-3">
+                          Transformamos dados brutos em insights acionáveis que impulsionam decisões estratégicas e otimizam seus resultados.
+                        </h6>
+                        <p class="mb-0">
+                          Tootsie roll fruitcake cookie. Dessert topping pie. Jujubes wafer carrot cake jelly. Bonbon
+                          jelly-o jelly-o ice cream jelly beans candy canes cake bonbon. Cookie jelly beans marshmallow
+                          jujubes sweet.
+                        </p>
+                      </div>
+
+
+                      <div class="tab-pane fade" id="navs-pills-top-aprendizado-de-maquinas" role="tabpanel">
+                        <h1 class="mb-0">Aprendizado de Máquinas</h1>
+                        <h6 class="py-3 my-4">
+                          Criamos modelos inteligentes que automatizam tarefas complexas, preveem tendências e personalizam a experiência do cliente.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-arquitetura-de-dados" role="tabpanel">
+                        <h1 class="mb-0">Arquitetura de Dados</h1>
+                        <h6 class="py-3 my-4">
+                          Projetamos soluções robustas e escaláveis para gerenciar seus dados de forma eficiente e segura.
+                        </h6>
+                        <p class="mb-0">
+                          Jelly-o jelly beans icing pastry cake cake lemon drops. Muffin muffin pie tiramisu halvah
+                          cotton candy liquorice caramels.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-automacoes-rpa" role="tabpanel">
+                        <h1 class="mb-0">Automações RPA</h1>
+                        <h6 class="py-3 my-4">
+                          Automatizamos tarefas repetitivas e manuais, liberando tempo e recursos para atividades estratégicas.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-ciencia-de-dados" role="tabpanel">
+                        <h1 class="mb-0">Ciência de Dados</h1>
+                        <h6 class="py-3 my-4">
+                          Aplicamos métodos científicos e computacionais para extrair insights valiosos de grandes conjuntos de dados.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-desenvolvimento-de-softwares" role="tabpanel">
+                        <h1 class="mb-0">Desenvolvimento de softwares</h1>
+                        <h6 class="py-3 my-4">
+                           Criamos soluções customizadas de software que atendem às necessidades específicas do seu negócio.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-engenharia-de-dados" role="tabpanel">
+                        <h1 class="mb-0">Engenharia de Dados</h1>
+                        <h6 class="py-3 my-4">
+                          Construímos e gerenciamos pipelines de dados eficientes para garantir a qualidade, segurança e disponibilidade dos seus dados.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-inteligencia-artificial" role="tabpanel">
+                        <h1 class="mb-0">Inteligência Artificial</h1>
+                        <h6 class="py-3 my-4">
+                           Implementamos soluções inovadoras de IA que automatizam tarefas, otimizam processos e aumentam a produtividade.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-inteligencia-de-negocios" role="tabpanel">
+                        <h1 class="mb-0">Inteligência de Negócios</h1>
+                        <h6 class="py-3 my-4">
+                          Fornecemos dashboards e relatórios interativos que facilitam a visualização e análise dos seus dados para uma melhor tomada de decisão.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-processamento-de-linguagem-natural" role="tabpanel">
+                        <h1 class="mb-0">Processamento de Linguagem Natural</h1>
+                        <h6 class="py-3 my-4">
+                          Desenvolvemos soluções que permitem que as máquinas compreendam e processem a linguagem humana de forma natural.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="navs-pills-top-visao-computacional" role="tabpanel">
+                        <h1 class="mb-0">Visão Computacional</h1>
+                        <h6 class="py-3 my-4">
+                          Criamos sistemas que permitem que as máquinas interpretem e compreendam o mundo visual, automatizando tarefas como reconhecimento facial e análise de imagens.
+                        </h6>
+                        <p class="mb-0">
+                          Cake chocolate bar cotton candy apple pie tootsie roll ice cream apple pie brownie cake. Sweet
+                          roll icing sesame snaps caramels danish toffee. Brownie biscuit dessert dessert. Pudding jelly
+                          jelly-o tart brownie jelly.
+                        </p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+        <!-- /Basic -->
+
+      </div>
+      
+    </div>
+    <!-- / Content -->
+{% endblock %}
